@@ -1,3 +1,5 @@
+/* -------------  header  ------------- */
+
 .header {
   max-width: 1280px;
   max-height: 1883px;
@@ -11,7 +13,7 @@
 
 .header__logo {
   max-width: 254px;
-  height: 70px;
+  max-height: 70px;
   letter-spacing: 0.7px;
   margin: 34px auto 0;
   padding: 0;
@@ -32,7 +34,6 @@
 
 .header__lead-title {
   max-width: 720px;
-  max-height: 200px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -41,7 +42,7 @@
   text-align: center;
   color: #ffffff;
   letter-spacing: 2px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -49,7 +50,6 @@
 
 .header__lead-subtitle {
   max-width: 720px;
-  max-height: 72px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -66,8 +66,8 @@
 
 .header__image {
   max-width: 984px;
-  max-height: 615px;
-  display: block;
+  height: 615px;
+  width: 100%;
   object-fit: cover;
   margin: 64px auto 0;
   padding: 0;
@@ -86,7 +86,6 @@
 
 .header__intro-title {
   max-width: 830px;
-  max-height: 116px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -102,7 +101,6 @@
 
 .header__intro-phrase {
   max-width: 738px;
-  max-height: 68px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -118,7 +116,6 @@
 
 .header__intro-author {
   max-width: 732px;
-  max-height: 34px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -135,7 +132,6 @@
 
 .header__intro-information {
   max-width: 722px;
-  max-height: 182px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -151,7 +147,6 @@
 
 .header__footer-copyright {
   max-width: 166px;
-  height: 16px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -163,22 +158,197 @@
   padding: 0;
 }
 
-/* estilos para monitores maiores com resolução de 4K */
+/* -------------  media  ------------- */
 
-/* @media screen and (min-width: 2560px) {
-} */
+/* -------------  1024-1280  ------------- */
 
-/* estilos para computadores de mesa e notebooks maiores */
+/* 1280 */
 
-/* @media screen and (min-width: 1440px) {
-} */
+@media screen and (max-width: 1152px) {
+  .header {
+    max-width: 1152px;
+    max-height: 1827px;
+  }
 
-/* estilos para tablets em orientação paisagem */
+  /* logo */
 
-/* @media screen and (max-width: 1024px) {
-} */
+  .header__logo {
+    max-height: 69px;
+    letter-spacing: 0.5px;
+    margin: 33px auto 0;
+  }
 
-/* estilos para tablets */
+  /* lead */
+
+  .header__lead {
+    max-width: 918px;
+    max-height: 801px;
+    margin: 95.62px auto 0;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 672.5px;
+    font-size: 90.75px;
+    line-height: 94.75px;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    margin: 30.5px auto 0;
+  }
+
+  .header__image {
+    max-width: 930px;
+    height: 509.25px;
+    margin: 183px auto 0;
+  }
+
+  /* intro */
+
+  .header__intro {
+    max-width: 802.5px;
+    max-height: 484px;
+    margin: 45px auto 0 103.5px;
+  }
+
+  /* intro-title */
+
+  .header__intro-title {
+    max-width: 799.25px;
+    font-size: 51.75px;
+    line-height: 55.75px;
+    letter-spacing: 4.32px;
+  }
+
+  /* intro-phrase */
+
+  .header__intro-phrase {
+    max-width: 733.25px;
+    letter-spacing: 1.68px;
+    margin: 42.5px auto 0 0;
+  }
+
+  /* intro-author */
+
+  .header__intro-author {
+    max-width: 729px;
+    letter-spacing: 0.6px;
+    margin: 7.5px auto 0 0;
+  }
+
+  /* intro-information */
+
+  .header__intro-information {
+    max-width: 721.5px;
+    margin: 32px auto 0 0;
+  }
+
+  /* header-footer */
+
+  .header__footer-copyright {
+    margin: 91px auto 24px;
+  }
+}
+
+/* -------------  768-1280  ------------- */
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 1024px;
+    max-height: 1771px;
+  }
+
+  /* logo */
+
+  .header__logo {
+    max-height: 68px;
+    letter-spacing: 0.4px;
+    margin: 32px auto 0;
+  }
+
+  /* lead */
+
+  .header__lead {
+    max-width: 852px;
+    max-height: 619px;
+    margin: 90px auto 0;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 625px;
+    font-size: 85.5px;
+    line-height: 89.5px;
+    margin: 0 auto;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    margin: 28.5px auto 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 876px;
+    height: 403.5px;
+    margin: 119px auto 0;
+  }
+
+  /* intro */
+
+  .header__intro {
+    max-width: 775px;
+    max-height: 486px;
+    margin: 163px auto 0 66.5px;
+  }
+
+  /* intro-title */
+
+  .header__intro-title {
+    max-width: 768.5px;
+    font-size: 49.5px;
+    line-height: 53.5px;
+    letter-spacing: 3.88px;
+    margin: 0;
+  }
+
+  /* intro-phrase */
+
+  .header__intro-phrase {
+    max-width: 729px;
+    letter-spacing: 1.22px;
+    margin: 45px auto 0 0;
+  }
+
+  /* intro-author */
+
+  .header__intro-author {
+    max-width: 726px;
+    letter-spacing: 0.5px;
+    margin: 5px auto 0 0;
+  }
+
+  /* intro-information */
+
+  .header__intro-information {
+    max-width: 721px;
+    margin: 32px auto 0 0;
+  }
+
+  /* header-footer */
+
+  .header__footer-copyright {
+    margin: 90px auto 24px;
+  }
+}
+
+/* -------------  768  ------------- */
 
 @media screen and (max-width: 768px) {
   .header {
@@ -205,7 +375,6 @@
 
   .header__lead-title {
     max-width: 530px;
-    max-height: 158px;
     font-size: 75px;
     line-height: 79px;
     margin: 0 auto;
@@ -214,6 +383,7 @@
   /* subtitle */
 
   .header__lead-subtitle {
+    letter-spacing: 0.5px;
     margin: 25px 0 0;
   }
 
@@ -221,7 +391,7 @@
 
   .header__image {
     max-width: 768px;
-    max-height: 192px;
+    height: 192px;
     margin: 174px 0 0;
   }
 
@@ -237,7 +407,6 @@
 
   .header__intro-title {
     max-width: 707px;
-    max-height: 98px;
     font-size: 45px;
     line-height: 49px;
     letter-spacing: 3px;
@@ -248,7 +417,6 @@
 
   .header__intro-phrase {
     max-width: 720px;
-    max-height: 102px;
     letter-spacing: 3px;
     margin: 50px 0 0;
   }
@@ -257,35 +425,224 @@
 
   .header__intro-author {
     max-width: 720px;
-    max-height: 34px;
     letter-spacing: 0.3;
-    margin: 0 0 58px;
+    margin: 0;
   }
 
   /* intro-information */
 
   .header__intro-information {
     max-width: 720px;
+    margin: 32px 0 0;
   }
 
   /* header-footer */
 
   .header__footer-copyright {
-    margin-top: 88px;
+    margin: 88px auto 24px;
   }
 }
 
-/* estilos para smartphones grandes */
+/* -------------  320-768  ------------- */
 
-/* @media screen and (max-width: 425px) {
-} */
+@media screen and (max-width: 544px) {
+  .header {
+    max-width: 544px;
+    max-height: 1604.5px;
+  }
 
-/* estilos para smartphones de tamanho médio */
+  /* logo */
 
-/* @media screen and (max-width: 375px) {
-} */
+  .header__logo {
+    max-width: 127px;
+    max-height: 52px;
+    margin: 25px auto 0;
+  }
 
-/* estilos para smartphones pequenos */
+  /* lead */
+
+  .header__lead {
+    max-width: 504px;
+    max-height: 199.5px;
+    margin: 70px auto 0;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 379px;
+    font-size: 57.5px;
+    line-height: 61.5px;
+    margin: 0 auto;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    max-width: 504px;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    margin: 24px auto 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 544px;
+    height: 196px;
+    margin: 107px 0 0;
+  }
+
+  /* intro */
+
+  .header__intro {
+    max-width: 544px;
+    max-height: 680px;
+    margin: 149px 12px 0;
+  }
+
+  /* intro-title */
+
+  .header__intro-title {
+    max-width: 497.5px;
+    font-size: 38.5px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+    margin: 0 6.5px 0 0;
+  }
+
+  /* intro-phrase */
+
+  .header__intro-phrase {
+    max-width: 504px;
+    line-height: 32px;
+    letter-spacing: 1.55px;
+    margin: 45px 0 0;
+  }
+
+  /* intro-author */
+
+  .header__intro-author {
+    max-width: 504px;
+    letter-spacing: 0.15;
+    margin: 5px 0 0;
+  }
+
+  /* intro-information */
+
+  .header__intro-information {
+    max-width: 504px;
+    margin: 32px 0 0;
+  }
+
+  .header__footer-copyright {
+    max-height: 90px;
+    margin-top: 78px;
+  }
+}
+
+/* -------------  320-544  ------------- */
+
+@media screen and (max-width: 432px) {
+  .header {
+    max-width: 432px;
+    max-height: 1577.25px;
+  }
+
+  /* logo */
+
+  .header__logo {
+    max-width: 157.5px;
+    margin: 22.5px auto 0;
+  }
+
+  /* lead */
+
+  .header__lead {
+    max-width: 396px;
+    max-height: 343.5px;
+    margin: 60px auto 0;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 303.5px;
+    font-size: 48.75px;
+    line-height: 52.75px;
+    margin: 0 auto;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    max-width: 396px;
+    font-size: 19.5px;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    margin: 20px auto 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 432px;
+    height: 198px;
+    margin: 73.5px 0 0;
+  }
+
+  /* intro */
+
+  .header__intro {
+    max-width: 416px;
+    max-height: 779px;
+    margin: 106.5px auto 0;
+  }
+
+  /* intro-title */
+
+  .header__intro-title {
+    max-width: 392.75px;
+    font-size: 35.25px;
+    line-height: 38.5px;
+    letter-spacing: 0.75px;
+    margin: 0 3.25px 0 0;
+  }
+
+  /* intro-phrase */
+
+  .header__intro-phrase {
+    max-width: 396px;
+    line-height: 31px;
+    letter-spacing: 0.77px;
+    margin: 42.5px 0 0;
+  }
+
+  /* intro-author */
+
+  .header__intro-author {
+    max-width: 376px;
+    letter-spacing: 0.07;
+    margin: 7.5px 0 0;
+  }
+
+  /* intro-information */
+
+  .header__intro-information {
+    max-width: 396px;
+    margin: 32px 0 0;
+  }
+
+  /* header-footer */
+
+  .header__footer-copyright {
+    max-height: 52px;
+    margin-top: 71px;
+  }
+}
+
+/* -------------  320  ------------- */
 
 @media screen and (max-width: 320px) {
   .header {
@@ -313,7 +670,6 @@
 
   .header__lead-title {
     max-width: 228px;
-    max-height: 88px;
     font-size: 40px;
     line-height: 44px;
     margin: 0 auto;
@@ -323,9 +679,9 @@
 
   .header__lead-subtitle {
     max-width: 288px;
-    max-height: 40px;
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: 0.3px;
     margin: 16px auto 0;
   }
 
@@ -333,7 +689,7 @@
 
   .header__image {
     max-width: 320px;
-    max-height: 200px;
+    height: 200px;
     margin: 40px 0 0;
   }
 
@@ -342,14 +698,13 @@
   .header__intro {
     max-width: 288px;
     max-height: 878px;
-    margin: 64px auto;
+    margin: 64px auto 0;
   }
 
   /* intro-title */
 
   .header__intro-title {
     max-width: 288px;
-    max-height: 140px;
     font-size: 32px;
     line-height: 35px;
     letter-spacing: 0;
@@ -360,7 +715,6 @@
 
   .header__intro-phrase {
     max-width: 288px;
-    max-height: 180px;
     line-height: 30px;
     letter-spacing: 0.1px;
     margin: 40px 0 0;
@@ -370,7 +724,6 @@
 
   .header__intro-author {
     max-width: 288px;
-    max-height: 34px;
     margin: 10px 0 0;
   }
 
@@ -378,7 +731,6 @@
 
   .header__intro-information {
     max-width: 288px;
-    max-height: 442px;
     margin: 32px 0 0;
   }
 

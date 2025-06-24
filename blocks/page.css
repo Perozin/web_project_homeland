@@ -5,16 +5,54 @@
   margin: 0 auto;
 }
 
-/* estilos para tablets */
+/* media */
+
+/* -------------  1024-1280  ------------- */
+
+@media screen and (max-width: 1280px) {
+  .page {
+    max-width: 1152px;
+    max-height: 1827px;
+  }
+}
+
+/* -------------  768-1280  ------------- */
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    max-height: 1771px;
+  }
+}
+
+/* -------------  768  ------------- */
 
 @media screen and (max-width: 768px) {
   .page {
     max-width: 768px;
-    max-height: 1550px;
+    max-height: 1659px;
   }
 }
 
-/* estilos para smartphones pequenos */
+/* -------------  320-768  ------------- */
+
+@media screen and (max-width: 544px) {
+  .page {
+    max-width: 544px;
+    max-height: 1604.5px;
+  }
+}
+
+/* -------------  320-544  ------------- */
+
+@media screen and (max-width: 432px) {
+  .page {
+    max-width: 432px;
+    max-height: 1577.25px;
+  }
+}
+
+/* -------------  320  ------------- */
 
 @media screen and (max-width: 320px) {
   .page {
