@@ -1,3 +1,5 @@
+/* -------------  page  ------------- */
+
 .page {
   max-width: 1280px;
   width: 100%;
@@ -5,18 +7,16 @@
   margin: 0 auto;
 }
 
-/* media */
+/* -------------  breackpoint  ------------- */
 
-/* -------------  1024-1280  ------------- */
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1152px) {
   .page {
     max-width: 1152px;
     max-height: 1827px;
   }
 }
 
-/* -------------  768-1280  ------------- */
+/* -------------  breackpoint  ------------- */
 
 @media screen and (max-width: 1024px) {
   .page {
@@ -25,7 +25,7 @@
   }
 }
 
-/* -------------  768  ------------- */
+/* -------------  breackpoint  ------------- */
 
 @media screen and (max-width: 768px) {
   .page {
@@ -34,7 +34,7 @@
   }
 }
 
-/* -------------  320-768  ------------- */
+/* -------------  breackpoint  ------------- */
 
 @media screen and (max-width: 544px) {
   .page {
@@ -43,7 +43,7 @@
   }
 }
 
-/* -------------  320-544  ------------- */
+/* -------------  breackpoint  ------------- */
 
 @media screen and (max-width: 432px) {
   .page {
@@ -52,7 +52,7 @@
   }
 }
 
-/* -------------  320  ------------- */
+/* -------------  breackpoint  ------------- */
 
 @media screen and (max-width: 320px) {
   .page {
