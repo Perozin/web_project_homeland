@@ -17,7 +17,7 @@ A página da Triple Homeland é o quinto projeto no programa de desenvolvimento 
 - Design de interface com Figma
 - Web design responsivo
 - Git avançado
-- vim e cat (visualização e edição de arquivos no prompt de comando)
+- vim e cat (visualização e edição de arquivos via prompt de comando)
 
 ## Planos de melhoria do projeto
 
