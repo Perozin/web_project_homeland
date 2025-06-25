@@ -13,8 +13,9 @@ A página da Triple Homeland é o quinto projeto no programa de desenvolvimento 
 - Metodologia BEM
 - Recursos avançados de HTML e CSS
 - Organização de arquivos com BEM
-- Design de interface e especificação
-- Layout repsonsivo
+- Especificações de design
+- Design de interface com Figma
+- Web design responsivo
 
 ## Planos de melhoria do projeto
 
