@@ -1,0 +1,78 @@
+/* -------------  footer  ------------- */
+
+/* copyright */
+
+.footer__copyright {
+  max-width: 166px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #ffffff;
+  margin: 92px auto 24px;
+  padding: 0;
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1152px) {
+  /* footer */
+
+  .footer__copyright {
+    margin: 91px auto 24px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1024px) {
+  /* footer */
+
+  .footer__copyright {
+    margin: 90px auto 24px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 768px) {
+  /* footer */
+
+  .footer__copyright {
+    margin: 88px auto 24px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 544px) {
+  /* footer */
+  .footer__copyright {
+    max-height: 90px;
+    margin-top: 78px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 432px) {
+  /* footer */
+
+  .footer__copyright {
+    max-height: 52px;
+    margin-top: 71px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 320px) {
+  /* footer */
+
+  .footer__copyright {
+    max-height: 14px;
+    margin-top: 64px;
+  }
+}

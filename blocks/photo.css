@@ -1,0 +1,30 @@
+/* -------------  photo page ------------- */
+
+/* grid */
+
+.photo {
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* container photos */
+
+.photo__container {
+  max-width: 1184px;
+  max-height: 442px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+  margin: 118px auto 0;
+  padding: 0;
+}
+
+.photo__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

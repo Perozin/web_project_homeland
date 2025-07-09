@@ -1,0 +1,25 @@
+/* -------------  places page  ------------- */
+
+/* places */
+
+.places {
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  box-sizing: border-box;
+}
+
+/* -------------  cards ------------- */
+
+.places__cards {
+  max-width: 984px;
+  /* height: 3338px; */
+  list-style-type: none;
+  margin: 92px auto 90px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 80px;
+}

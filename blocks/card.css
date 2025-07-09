@@ -1,0 +1,208 @@
+/* -------------  card page ------------- */
+
+/* card */
+
+.card {
+  max-width: 984px;
+  background-color: #2a2c2f;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.card_gales {
+  max-height: 832px;
+  display: grid;
+  column-gap: 40px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    ". ."
+    "image history"
+    "image tour"
+    ". ."
+    "frame .";
+}
+
+.card_usa {
+  max-height: 832px;
+  display: grid;
+  column-gap: 40px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    ". ."
+    "image history"
+    "image tour"
+    ". ."
+    "frame .";
+}
+
+.card_burundi {
+  max-height: 832px;
+  display: grid;
+  column-gap: 40px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    ". ."
+    "image history"
+    "image tour"
+    "image more"
+    "frame more"
+    ". more";
+}
+
+/* title */
+
+.card__title {
+  max-width: 460px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  grid-area: title;
+  margin-bottom: 48px;
+}
+
+/* artist */
+
+.card__artist {
+  max-width: 456px;
+  max-height: 67px;
+  grid-area: artist;
+  margin-bottom: 48px;
+}
+
+/* url */
+
+.card__url {
+  max-width: 85.17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+}
+
+/* name */
+
+.card__name {
+  max-width: 329.66px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+/* image */
+
+.card__image {
+  max-width: 460px;
+  max-height: 460px;
+  width: 100%;
+  object-fit: cover;
+  grid-area: image;
+  margin-bottom: 48px;
+}
+
+/* history */
+
+.card__history {
+  max-width: 484px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  grid-area: history;
+  margin-bottom: 25px;
+}
+
+/* tour */
+
+.card__tour {
+  max-width: 484px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  grid-area: tour;
+}
+
+.card__tour_burundi {
+  margin-bottom: 25px;
+}
+
+/* more */
+
+.card__more {
+  max-width: 484px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  grid-area: more;
+}
+
+/* Frame */
+
+.card__frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  max-width: 356.08px;
+  max-height: 48px;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  grid-area: frame;
+  text-align: center;
+}
+
+/* frame-text */
+
+.card__frame-text {
+  max-width: 315px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  width: 100%;
+}
+
+/* -------------  brazil  ------------- */
+
+/* .card__brazil {
+  max-height: 756px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    "image history"
+    "image tour"
+    ". ."
+    "frame .";
+} */

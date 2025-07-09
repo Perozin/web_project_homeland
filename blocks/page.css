@@ -13,7 +13,7 @@
 @media screen and (max-width: 1152px) {
   .page {
     max-width: 1152px;
-    max-height: 1827px;
+    /* max-height: 1827px; */
   }
 }
 
@@ -22,7 +22,7 @@
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
-    max-height: 1771px;
+    /* max-height: 1771px; */
   }
 }
 
@@ -31,7 +31,7 @@
 @media screen and (max-width: 768px) {
   .page {
     max-width: 768px;
-    max-height: 1659px;
+    /* max-height: 1659px; */
   }
 }
 
@@ -40,7 +40,7 @@
 @media screen and (max-width: 544px) {
   .page {
     max-width: 544px;
-    max-height: 1604.5px;
+    /* max-height: 1604.5px; */
   }
 }
 
@@ -49,7 +49,7 @@
 @media screen and (max-width: 432px) {
   .page {
     max-width: 432px;
-    max-height: 1577.25px;
+    /* max-height: 1577.25px; */
   }
 }
 
@@ -58,6 +58,6 @@
 @media screen and (max-width: 320px) {
   .page {
     max-width: 320px;
-    max-height: 1550px;
+    /* max-height: 1550px; */
   }
 }
