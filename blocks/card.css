@@ -1,4 +1,4 @@
-/* -------------  card page ------------- */
+/* -------------  cards page ------------- */
 
 /* card */
 
@@ -8,14 +8,14 @@
   list-style-type: none;
   width: 100%;
   height: 100%;
+  display: grid;
+  column-gap: 40px;
   margin: 0;
   padding: 0;
 }
 
 .card_gales {
   max-height: 832px;
-  display: grid;
-  column-gap: 40px;
   grid-template-areas:
     "title ."
     "title artist"
@@ -27,9 +27,7 @@
 }
 
 .card_usa {
-  max-height: 832px;
-  display: grid;
-  column-gap: 40px;
+  max-height: 680px;
   grid-template-areas:
     "title ."
     "title artist"
@@ -41,9 +39,7 @@
 }
 
 .card_burundi {
-  max-height: 832px;
-  display: grid;
-  column-gap: 40px;
+  max-height: 830px;
   grid-template-areas:
     "title ."
     "title artist"
@@ -53,6 +49,18 @@
     "image more"
     "frame more"
     ". more";
+}
+
+.card_brazil {
+  max-height: 756px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    ". ."
+    "image history"
+    "image tour"
+    "frame tour"
+    ". tour";
 }
 
 /* title */
