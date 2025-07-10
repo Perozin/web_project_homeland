@@ -15,6 +15,7 @@
 
 .places__cards {
   max-width: 984px;
+  max-height: 3338px;
   list-style-type: none;
   margin: 92px auto 90px;
   padding: 0;
