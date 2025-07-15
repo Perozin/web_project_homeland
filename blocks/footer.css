@@ -11,7 +11,7 @@
   line-height: 16px;
   text-align: right;
   color: #ffffff;
-  margin: 92px auto 24px;
+  margin: 90px auto 25px;
   padding: 0;
 }
 
@@ -21,7 +21,16 @@
   /* footer */
 
   .footer__copyright {
-    margin: 91px auto 24px;
+    margin: 91px auto 25px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* footer */
+  .footer__copyright {
+    margin: 90.5px auto 25px;
   }
 }
 
@@ -31,7 +40,17 @@
   /* footer */
 
   .footer__copyright {
-    margin: 90px auto 24px;
+    margin: 90px auto 25px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 896px) {
+  /* footer */
+
+  .footer__copyright {
+    margin: 89px auto 25px;
   }
 }
 
@@ -41,7 +60,17 @@
   /* footer */
 
   .footer__copyright {
-    margin: 88px auto 24px;
+    margin: 88px auto 25px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* footer */
+  .footer__copyright {
+    max-height: 90px;
+    margin: 83px auto 25;
   }
 }
 
@@ -51,7 +80,7 @@
   /* footer */
   .footer__copyright {
     max-height: 90px;
-    margin-top: 78px;
+    margin: 78px auto 17.77;
   }
 }
 
@@ -62,7 +91,18 @@
 
   .footer__copyright {
     max-height: 52px;
-    margin-top: 71px;
+    margin: 71px auto 17.77;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* footer */
+
+  .footer__copyright {
+    max-height: 14px;
+    margin: 67.5px auto 17.77px;
   }
 }
 
@@ -73,6 +113,6 @@
 
   .footer__copyright {
     max-height: 14px;
-    margin-top: 64px;
+    margin: 64px auto 17.77px;
   }
 }

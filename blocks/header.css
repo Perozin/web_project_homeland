@@ -4,6 +4,7 @@
 
 .header {
   max-width: 1280px;
+  width: 100%;
   background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
@@ -64,7 +65,7 @@
 
 .header__image {
   max-width: 984px;
-  height: 615px;
+  max-height: 615px;
   width: 100%;
   object-fit: cover;
   margin: 64px auto 0;
@@ -77,22 +78,20 @@
   /* header */
   .header {
     max-width: 1152px;
-    max-height: 1827px;
   }
 
   /* logo */
 
   .header__logo {
-    max-height: 69px;
+    max-height: 207px;
     margin: 33px auto 0;
   }
 
   /* lead */
 
   .header__lead {
-    max-width: 918px;
-    max-height: 801px;
-    margin: 95.62px auto 0;
+    max-width: 930px;
+    height: auto;
   }
 
   /* title */
@@ -106,13 +105,59 @@
   /* subtitle */
 
   .header__lead-subtitle {
-    margin: 30.5px auto 0;
+    margin: 30.25px auto 0;
   }
 
   .header__image {
     max-width: 930px;
-    height: 509.25px;
+    max-height: 581.25px;
     margin: 68px auto 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* header */
+  .header {
+    max-width: 1088px;
+    height: auto;
+  }
+
+  /* logo */
+
+  .header__logo {
+    max-height: 183.5px;
+    margin: 32.5px auto 0;
+  }
+
+  /* lead */
+
+  .header__lead {
+    max-width: 903px;
+    height: auto;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 648.75px;
+    font-size: 88.12px;
+    line-height: 92.12px;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    margin: 29.37px auto 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 903px;
+    max-height: 564.37px;
+    margin: 70px auto 0;
   }
 }
 
@@ -122,22 +167,21 @@
   /* header */
   .header {
     max-width: 1024px;
-    max-height: 1771px;
+    height: auto;
   }
 
   /* logo */
 
   .header__logo {
-    max-height: 68px;
+    max-height: 160px;
     margin: 32px auto 0;
   }
 
   /* lead */
 
   .header__lead {
-    max-width: 852px;
-    max-height: 619px;
-    margin: 90px auto 0;
+    max-width: 876px;
+    height: auto;
   }
 
   /* title */
@@ -146,7 +190,6 @@
     max-width: 625px;
     font-size: 85.5px;
     line-height: 89.5px;
-    margin: 0 auto;
   }
 
   /* subtitle */
@@ -159,8 +202,54 @@
 
   .header__image {
     max-width: 876px;
-    height: 403.5px;
+    max-height: 547.5px;
     margin: 72px auto 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 896px) {
+  /* header */
+  .header {
+    max-width: 896px;
+    height: auto;
+  }
+
+  /* logo */
+
+  .header__logo {
+    max-height: 113px;
+    margin: 31px auto 0;
+  }
+
+  /* lead */
+
+  .header__lead {
+    max-width: 822px;
+    height: auto;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 577.5px;
+    font-size: 80.25px;
+    line-height: 84.25px;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    margin: 26.75px 0 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 822px;
+    max-height: 513.75px;
+    margin: 51px auto 0;
   }
 }
 
@@ -170,7 +259,7 @@
   /* header */
   .header {
     max-width: 768px;
-    max-height: 1659px;
+    height: auto;
   }
 
   /* logo */
@@ -183,9 +272,8 @@
   /* lead */
 
   .header__lead {
-    max-width: 720px;
-    max-height: 255px;
-    margin: 90px 24px 0;
+    max-width: 768px;
+    height: auto;
   }
 
   /* title */
@@ -194,7 +282,6 @@
     max-width: 530px;
     font-size: 75px;
     line-height: 79px;
-    margin: 0 auto;
   }
 
   /* subtitle */
@@ -207,8 +294,60 @@
 
   .header__image {
     max-width: 768px;
-    height: 192px;
-    margin: 174px 0 0;
+    max-height: 480px;
+    margin: 30px 0 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* header */
+  .header {
+    max-width: 656px;
+    height: auto;
+  }
+
+  /* logo */
+
+  .header__logo {
+    max-width: 190.5px;
+    max-height: 59px;
+    margin: 27.5px auto 0;
+  }
+
+  /* lead */
+
+  .header__lead {
+    max-width: 656px;
+    max-height: auto;
+    margin: 70px auto 0;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 454.5px;
+    font-size: 65px;
+    line-height: 70.25px;
+    margin: 0 auto;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    max-width: 612px;
+    font-size: 26.5px;
+    line-height: 32px;
+    margin: 33px auto 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 656px;
+    height: 410px;
+    margin: 32.5px 0 0;
   }
 }
 
@@ -218,7 +357,7 @@
   /* header */
   .header {
     max-width: 544px;
-    max-height: 1604.5px;
+    height: auto;
   }
 
   /* logo */
@@ -232,8 +371,8 @@
   /* lead */
 
   .header__lead {
-    max-width: 504px;
-    max-height: 199.5px;
+    max-width: 544px;
+    max-height: auto;
     margin: 70px auto 0;
   }
 
@@ -259,8 +398,8 @@
 
   .header__image {
     max-width: 544px;
-    height: 196px;
-    margin: 107px 0 0;
+    height: 340px;
+    margin: 35px 0 0;
   }
 }
 
@@ -270,7 +409,7 @@
   /* header */
   .header {
     max-width: 432px;
-    max-height: 1577.25px;
+    height: auto;
   }
 
   /* logo */
@@ -317,11 +456,65 @@
 
 /* -------------  breackpoint  ------------- */
 
+@media screen and (max-width: 375px) {
+  /* header */
+  .header {
+    max-width: 375px;
+    height: auto;
+  }
+
+  /* logo */
+
+  .header__logo {
+    max-width: 172.75px;
+    max-height: 52px;
+    margin: 21.25px auto 0;
+  }
+
+  /* lead */
+
+  .header__lead {
+    max-width: 375px;
+    max-height: auto;
+    margin: 55px auto 0;
+  }
+
+  /* title */
+
+  .header__lead-title {
+    max-width: 267.18px;
+    font-size: 44.37px;
+    line-height: 48.37px;
+  }
+
+  /* subtitle */
+
+  .header__lead-subtitle {
+    max-width: 337.5px;
+    font-size: 17.75px;
+    line-height: 22px;
+    margin: 18px auto 0;
+  }
+
+  /* image */
+
+  .header__image {
+    max-width: 375px;
+    max-height: 234px;
+    width: 100%;
+    object-fit: cover;
+    margin: 56.75px 0 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
 @media screen and (max-width: 320px) {
   /* header */
   .header {
     max-width: 320px;
-    max-height: 1550px;
+    /* max-height: 1550px; */
+    height: auto;
   }
 
   /* logo */
@@ -335,8 +528,8 @@
   /* lead */
 
   .header__lead {
-    max-width: 288px;
-    max-height: 144px;
+    max-width: 320px;
+    max-height: auto;
     margin: 50px auto 0;
   }
 
@@ -346,7 +539,6 @@
     max-width: 228px;
     font-size: 40px;
     line-height: 44px;
-    margin: 0 auto;
   }
 
   /* subtitle */
@@ -362,7 +554,9 @@
 
   .header__image {
     max-width: 320px;
-    height: 200px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
     margin: 40px 0 0;
   }
 }

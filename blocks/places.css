@@ -1,9 +1,10 @@
-/* -------------  places page  ------------- */
+/* -------------  places  ------------- */
 
 /* places */
 
 .places {
   max-width: 1280px;
+  width: 100%;
   background-color: #2a2c2f;
   color: white;
   display: flex;
@@ -15,11 +16,207 @@
 
 .places__cards {
   max-width: 984px;
-  max-height: 3338px;
+  width: 100%;
   list-style-type: none;
-  margin: 92px auto 90px;
+  margin: 92px auto 0;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 80px;
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1152px) {
+  /* places */
+
+  .places {
+    max-width: 1152px;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 918px;
+    width: 100%;
+    margin-top: 91px;
+    row-gap: 78px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* places */
+
+  .places {
+    max-width: 1088px;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 885px;
+    width: 100%;
+    margin-top: 90.5px;
+    row-gap: 77px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1024px) {
+  /* places */
+
+  .places {
+    max-width: 1024px;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 852px;
+    width: 100%;
+    margin-top: 90px;
+    row-gap: 76px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 896px) {
+  /* places */
+
+  .places {
+    max-width: 896px;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 786px;
+    width: 100%;
+    margin-top: 89px;
+    row-gap: 74px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 768px) {
+  /* places */
+
+  .places {
+    max-width: 768px;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 720px;
+    width: 100%;
+    margin-top: 88px;
+    row-gap: 72px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* places */
+
+  .places {
+    max-width: 656px;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 620px;
+    width: 100%;
+    margin-top: 66.48px;
+    row-gap: 20px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 544px) {
+  /* places */
+
+  .places {
+    max-width: 544px;
+    width: 100%;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 544px;
+    width: 100%;
+    margin-top: 75px;
+    row-gap: 39px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 432px) {
+  /* places */
+
+  .places {
+    max-width: 432px;
+    width: 100%;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 420px;
+    width: 100%;
+    margin-top: 68.5px;
+    row-gap: 39px;
+    width: 100%;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* places */
+
+  .places {
+    max-width: 375px;
+    width: 100%;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 370px;
+    width: 100%;
+    margin-top: 62px;
+    row-gap: 50px;
+    align-items: center;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 320px) {
+  /* places */
+
+  .places {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  /* -------------  cards ------------- */
+
+  .places__cards {
+    max-width: 320px;
+    width: 100%;
+    margin-top: 62px;
+    row-gap: 50px;
+  }
 }

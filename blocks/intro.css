@@ -80,7 +80,7 @@
   .intro {
     max-width: 802.5px;
     max-height: 484px;
-    margin: 45px auto 0 103.5px;
+    margin: 91.5px auto 0 107.25px;
   }
 
   /* intro-title */
@@ -94,7 +94,7 @@
   /* intro-phrase */
 
   .intro__phrase {
-    max-width: 733.25px;
+    max-width: 733.5px;
     margin: 42.5px auto 0 0;
   }
 
@@ -109,7 +109,48 @@
 
   .intro__information {
     max-width: 721.5px;
-    margin: 32px auto 0 0;
+    margin: 10px auto 0 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* intro */
+
+  .intro {
+    max-width: 788.75px;
+    max-height: 485px;
+    margin: 91.25px auto 0 86.87px;
+  }
+
+  /* intro-title */
+
+  .intro__title {
+    max-width: 783.87px;
+    font-size: 50.62px;
+    line-height: 54.62px;
+  }
+
+  /* intro-phrase */
+
+  .intro__phrase {
+    max-width: 731.25px;
+    margin: 43.75px auto 0 0;
+  }
+
+  /* intro-author */
+
+  .intro__author {
+    max-width: 727.5px;
+    margin: 6.25px auto 0 0;
+  }
+
+  /* intro-information */
+
+  .intro__information {
+    max-width: 721.25px;
+    margin: 16px auto 0 0;
   }
 }
 
@@ -121,7 +162,7 @@
   .intro {
     max-width: 775px;
     max-height: 486px;
-    margin: 163px auto 0 66.5px;
+    margin: 91px auto 0 66.5px;
   }
 
   /* intro-title */
@@ -130,7 +171,6 @@
     max-width: 768.5px;
     font-size: 49.5px;
     line-height: 53.5px;
-    margin: 0;
   }
 
   /* intro-phrase */
@@ -157,44 +197,117 @@
 
 /* -------------  breackpoint  ------------- */
 
-@media screen and (max-width: 768px) {
-  /* intro */
-
+@media screen and (max-width: 896px) {
   .intro {
-    max-width: 544px;
-    max-height: 680px;
-    margin: 149px 12px 0;
+    max-width: 747.5px;
+    max-height: 488px;
+    margin: 90.5px auto 0 29.5px;
   }
 
   /* intro-title */
 
   .intro__title {
-    max-width: 497.5px;
-    font-size: 38.5px;
-    line-height: 42px;
-    margin: 0 6.5px 0 0;
+    max-width: 737.75px;
+    font-size: 47.25px;
+    line-height: 51.25px;
   }
 
   /* intro-phrase */
 
   .intro__phrase {
-    max-width: 504px;
-    line-height: 32px;
-    margin: 45px 0 0;
+    max-width: 724.5px;
   }
 
   /* intro-author */
 
   .intro__author {
-    max-width: 504px;
-    margin: 5px 0 0;
+    max-width: 723px;
+    margin: 2.5px auto 0 0;
   }
 
   /* intro-information */
 
   .intro__information {
-    max-width: 504px;
-    margin: 32px 0 0;
+    max-width: 720.5px;
+    margin: 8px auto 0 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 768px) {
+  /* intro */
+
+  .intro {
+    max-width: 720px;
+    max-height: 490px;
+    margin: 90px auto 0;
+  }
+
+  /* intro-title */
+
+  .intro__title {
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  /* intro-phrase */
+
+  .intro__phrase {
+    max-width: 720px;
+  }
+
+  /* intro-author */
+
+  .intro__author {
+    max-width: 720px;
+    text-align: right;
+  }
+
+  /* intro-information */
+
+  .intro__information {
+    max-width: 720px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* intro */
+
+  .intro {
+    max-width: 612px;
+    max-height: 587px;
+    margin: 83.5px auto 0;
+  }
+
+  /* intro-title */
+
+  .intro__title {
+    max-width: 602.25px;
+    font-size: 41.75px;
+    line-height: 45.5px;
+  }
+
+  /* intro-phrase */
+
+  .intro__phrase {
+    max-width: 612px;
+  }
+
+  /* intro-author */
+
+  .intro__author {
+    max-width: 612px;
+    margin: 2.5px 0 0;
+  }
+
+  /* intro-information */
+
+  .intro__information {
+    max-width: 612px;
   }
 }
 
@@ -204,9 +317,9 @@
   /* intro */
 
   .intro {
-    max-width: 544px;
-    max-height: 680px;
-    margin: 149px 12px 0;
+    max-width: 504px;
+    max-height: 684px;
+    margin: 77px auto 0;
   }
 
   /* intro-title */
@@ -215,7 +328,6 @@
     max-width: 497.5px;
     font-size: 38.5px;
     line-height: 42px;
-    margin: 0 6.5px 0 0;
   }
 
   /* intro-phrase */
@@ -247,9 +359,9 @@
   /* intro */
 
   .intro {
-    max-width: 416px;
-    max-height: 779px;
-    margin: 106.5px auto 0;
+    max-width: 396px;
+    max-height: 781px;
+    margin: 70.5px auto 0;
   }
 
   /* intro-title */
@@ -280,6 +392,49 @@
 
   .intro__information {
     max-width: 396px;
+    margin: 32px 0 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* intro */
+
+  .intro {
+    max-width: 337.5px;
+    max-height: 1028.9px;
+    margin: 67.25px auto 0;
+  }
+
+  /* intro-title */
+
+  .intro__title {
+    max-width: 337.5px;
+    font-size: 33.62px;
+    line-height: 36.75px;
+    margin: 0;
+  }
+
+  /* intro-phrase */
+
+  .intro__phrase {
+    max-width: 337.5px;
+    line-height: 30.5px;
+    margin: 41.25px auto 0;
+  }
+
+  /* intro-author */
+
+  .intro__author {
+    max-width: 337.5px;
+    margin: 8.75px 0 0;
+  }
+
+  /* intro-information */
+
+  .intro__information {
+    max-width: 337.5px;
     margin: 32px 0 0;
   }
 }

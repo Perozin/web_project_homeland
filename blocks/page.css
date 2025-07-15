@@ -12,7 +12,14 @@
 @media screen and (max-width: 1152px) {
   .page {
     max-width: 1152px;
-    /* max-height: 1827px; */
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  .page {
+    max-width: 1088px;
   }
 }
 
@@ -21,7 +28,14 @@
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
-    /* max-height: 1771px; */
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 896px) {
+  .page {
+    max-width: 896px;
   }
 }
 
@@ -30,7 +44,14 @@
 @media screen and (max-width: 768px) {
   .page {
     max-width: 768px;
-    /* max-height: 1659px; */
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  .page {
+    max-width: 656px;
   }
 }
 
@@ -39,7 +60,6 @@
 @media screen and (max-width: 544px) {
   .page {
     max-width: 544px;
-    /* max-height: 1604.5px; */
   }
 }
 
@@ -48,7 +68,14 @@
 @media screen and (max-width: 432px) {
   .page {
     max-width: 432px;
-    /* max-height: 1577.25px; */
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 375px) {
+  .page {
+    max-width: 375px;
   }
 }
 
@@ -57,6 +84,5 @@
 @media screen and (max-width: 320px) {
   .page {
     max-width: 320px;
-    /* max-height: 1550px; */
   }
 }

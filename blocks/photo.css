@@ -1,6 +1,6 @@
 /* -------------  photos page ------------- */
 
-/* grid */
+/* grid-photos */
 
 .photo {
   max-width: 1280px;
@@ -14,7 +14,7 @@
 
 .photo__container {
   max-width: 1184px;
-  max-height: 442px;
+  /* max-height: 442px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -23,8 +23,207 @@
   padding: 0;
 }
 
+/* photo */
+
 .photo__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1152px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 1152px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 1068px;
+    /* max-height: 607.5px; */
+    margin-top: 104.5px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 1088px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 1010px;
+    /* max-height: 690.25px; */
+    margin-top: 97.75px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1024px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 1024px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 952px;
+    /* max-height: 773px; */
+    margin-top: 91px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 896px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 896px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 836px;
+    /* max-height: 938.5px; */
+    margin-top: 77.5px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 768px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 768px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 720px;
+    /* max-height: 1104px; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 64px 16.5px 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 656px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 612px;
+    /* max-height: 1281px; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 57.5px 14.5px 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 544px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 544px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 504px;
+    /* max-height: 1458px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 14px;
+    margin: 51px 12.5px 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 432px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 432px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 396px;
+    /* max-height: 2489.5px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 13px;
+    margin: 44.5px 10.5px 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 375px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 342px;
+    /* max-height: 2150px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 12.5px;
+    margin: 38px 11.25px 0;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 320px) {
+  /* grid-photos */
+
+  .photo {
+    max-width: 320px;
+  }
+
+  /* container photos */
+
+  .photo__container {
+    max-width: 288px;
+    /* max-height: 1812px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 12px;
+    margin-top: 38px;
+  }
 }

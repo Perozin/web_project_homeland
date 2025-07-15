@@ -6,6 +6,7 @@
   max-width: 984px;
   background-color: #2a2c2f;
   list-style-type: none;
+  display: inline-block;
   width: 100%;
   height: 100%;
   display: grid;
@@ -15,7 +16,6 @@
 }
 
 .card_gales {
-  max-height: 832px;
   grid-template-areas:
     "title ."
     "title artist"
@@ -27,7 +27,6 @@
 }
 
 .card_usa {
-  max-height: 680px;
   grid-template-areas:
     "title ."
     "title artist"
@@ -39,11 +38,9 @@
 }
 
 .card_burundi {
-  max-height: 830px;
   grid-template-areas:
     "title ."
     "title artist"
-    ". ."
     "image history"
     "image tour"
     "image more"
@@ -52,15 +49,10 @@
 }
 
 .card_brazil {
-  max-height: 756px;
   grid-template-areas:
     "title ."
     "title artist"
-    ". ."
     "image history"
-    "image tour"
-    ". tour"
-    "frame tour"
     "frame .";
 }
 
@@ -142,10 +134,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
   color: #ffffff;
   grid-area: history;
   margin-bottom: 25px;
+}
+
+.card__history_sto-andre {
+  max-height: 460px;
+  overflow-wrap: break-word;
+  margin-bottom: 0;
 }
 
 /* tour */
@@ -156,7 +154,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
   color: #ffffff;
   grid-area: tour;
 }
@@ -169,6 +167,7 @@
 
 .card__more {
   max-width: 484px;
+  max-height: 232px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -176,6 +175,7 @@
   line-height: 163%;
   color: #ffffff;
   grid-area: more;
+  overflow-wrap: break-word;
 }
 
 /* Frame */
@@ -236,4 +236,1453 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1152px) {
+  /* card */
+
+  .card {
+    max-width: 1152px;
+    column-gap: 37px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "image more"
+      "frame more"
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame .";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 430px;
+    font-size: 64.5px;
+    line-height: 68.5px;
+    grid-area: title;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 430px;
+    max-height: 67.25px;
+    grid-area: artist;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 80.62px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 335.24px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 430px;
+    max-height: 430px;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 451px;
+    font-size: 17.5px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 442px;
+    overflow-wrap: break-word;
+    font-size: 16.87px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 451px;
+    font-size: 17.25px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 451px;
+    font-size: 17.5px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 355.81px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* card */
+
+  .card {
+    max-width: 1088px;
+    column-gap: 35.5px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame more"
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame .";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 415px;
+    font-size: 60.75px;
+    line-height: 64.5px;
+    grid-area: title;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 417px;
+    max-height: 67.37px;
+    grid-area: artist;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 78.35px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 338.03px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 415px;
+    max-height: 415px;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 434.5px;
+    font-size: 17.25px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 421px;
+    font-size: 16.31px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 434.5px;
+    font-size: 16.87px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 434.5px;
+    font-size: 17.25px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 355.67px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 1024px) {
+  /* card */
+
+  .card {
+    max-width: 1024px;
+    column-gap: 34px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame more"
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame .";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 400px;
+    font-size: 57px;
+    line-height: 61px;
+    grid-area: title;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 404px;
+    max-height: 67.5px;
+    grid-area: artist;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 76.08px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 340.83px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 418px;
+    font-size: 17px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 400px;
+    font-size: 15.75px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 418px;
+    font-size: 16.5px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 418px;
+    font-size: 17px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 355.54px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 896px) {
+  /* card */
+
+  .card {
+    max-width: 896px;
+    column-gap: 31px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame .";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 370px;
+    font-size: 49.5px;
+    line-height: 53.5px;
+    grid-area: title;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 378px;
+    max-height: 67.75px;
+    grid-area: artist;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 71.54px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 346.41px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 370px;
+    max-height: 370px;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 385px;
+    font-size: 16.5px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 370px;
+    font-size: 14.5px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 385px;
+    font-size: 15.75px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 340px;
+    font-size: 16.5px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 355.27px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 768px) {
+  /* card */
+
+  .card {
+    max-width: 720px;
+    column-gap: 28px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      "frame tour"
+      "frame ."
+      "frame ."
+      "frame ."
+      "frame ."
+      "frame ."
+      "frame ."
+      "frame ."
+      "frame ."
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame history"
+      ". history";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    grid-area: title;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 352px;
+    max-height: 68px;
+    grid-area: artist;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 67px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 352px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 352px;
+    font-size: 16px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 455px;
+    overflow-wrap: break-word;
+    font-size: 13.25px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 352px;
+    font-size: 15px;
+  }
+
+  .card__tour_burundi {
+    margin-bottom: 25;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 352px;
+    font-size: 16px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 355px;
+    background: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
+  }
+
+  /* frame-text */
+
+  .card__frame-link {
+    background: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* card */
+  .card {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 22px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      ". tour"
+      "frame tour"
+      ". tour"
+      ". tour"
+      ". tour"
+      ". tour";
+  }
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      ". tour"
+      "frame tour"
+      ". tour"
+      ". tour"
+      ". tour";
+  }
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      ". tour"
+      "frame tour"
+      ". more";
+  }
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      ". history"
+      "frame history"
+      ". history"
+      ". history";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 320px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 22px;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 320px;
+    max-height: 62px;
+    margin-bottom: 22px;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 75px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 320px;
+    max-height: 320px;
+    margin-bottom: 22px;
+  }
+
+  .card__image:hover {
+    background: #000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 435px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+
+  .card__tour_burundi {
+    margin-bottom: 15px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 300px;
+    padding: 13px 20px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  /* frame-text */
+
+  .card__frame-link {
+    max-width: 270px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 544px) {
+  /* card */
+
+  .card {
+    max-width: 504px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      ". tour"
+      "frame tour"
+      ". tour"
+      ". tour"
+      ". tour"
+      ". tour"
+      ". tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "image tour"
+      ". tour"
+      "frame tour"
+      ". tour"
+      ". tour"
+      ". tour"
+      ". tour"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "image tour"
+      ". ."
+      "frame tour"
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      ". history"
+      "frame history"
+      ". history"
+      ". history"
+      ". history"
+      ". history";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 340px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 340px;
+    max-height: 60px;
+    margin-bottom: 20px;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 80px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 340px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 340px;
+    max-height: 340px;
+    margin-bottom: 20px;
+  }
+
+  /* shadow */
+
+  .card__image:hover {
+    background: #000000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 320px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .card__history_sto-andre {
+    max-height: 450px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 320px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .card__tour_burundi {
+    margin-bottom: 15px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 320px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 320px;
+    padding: 13px 20px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  /* frame-text */
+
+  .card__frame-link {
+    max-width: 280px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 432px) {
+  /* card */
+
+  .card {
+    max-width: 380px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "frame history"
+      "frame ."
+      "frame tour"
+      ". tour";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title artist"
+      "image history"
+      "frame history"
+      "frame history"
+      "frame history"
+      "frame history"
+      "frame history"
+      "frame history"
+      "frame history"
+      "frame history"
+      "frame history"
+      ". tour";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame tour"
+      ". tour"
+      ". more";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image history"
+      "frame history"
+      ". history";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 360px;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 18px;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 360px;
+    max-height: 55px;
+    margin-bottom: 18px;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 70px;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 360px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 180px;
+    max-height: 180px;
+    margin-bottom: 18px;
+  }
+
+  .card__image:hover {
+    background: #000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 180px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+
+  .card__history_sto-andre {
+    max-width: 180px;
+    max-height: 579px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 180px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
+  .card__tour_burundi {
+    max-width: 180px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 180px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 180px;
+    padding: 10px 16px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  /* frame-text */
+
+  .card__frame-link {
+    max-width: 160px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* card */
+
+  .card {
+    max-width: 375px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "frame";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "frame";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "more"
+      "frame";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "frame";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 320px;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: left;
+    margin: 0 auto 0 11.25px;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 320px;
+    max-height: 65px;
+    margin: 0 auto 0 11.25px;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 320px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 375px;
+    max-height: 375px;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card__image:hover {
+    background: #000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 22px;
+    row-gap: 15px;
+    margin: 0 auto 0 11.25px;
+  }
+
+  .card__history_sto-andre {
+    row-gap: 25px;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 22px;
+    row-gap: 25px;
+    margin: 0 auto 0 11.25px;
+  }
+
+  .card__tour_burundi {
+    row-gap: 15px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 22px;
+    row-gap: 25px;
+    margin: 0 auto 0 11.25px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 320px;
+    padding: 13px 20px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 0 auto;
+    row-gap: 0;
+  }
+
+  /* frame-text */
+
+  .card__frame-link {
+    max-width: 280px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+/* -------------  breackpoint  ------------- */
+
+@media screen and (max-width: 320px) {
+  /* card */
+
+  .card {
+    max-width: 320px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card_gales {
+    grid-template-areas:
+      "title "
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "frame";
+  }
+
+  .card_usa {
+    grid-template-areas:
+      "title "
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "frame";
+  }
+
+  .card_burundi {
+    grid-template-areas:
+      "title "
+      "artist"
+      "image"
+      "history"
+      "tour"
+      "more"
+      "frame";
+  }
+
+  .card_brazil {
+    grid-template-areas:
+      "title "
+      "artist"
+      "image"
+      "history"
+      "."
+      "frame";
+  }
+
+  /* title */
+
+  .card__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 11.25px;
+    text-align: left;
+  }
+
+  /* artist */
+
+  .card__artist {
+    max-width: 288px;
+    max-height: 89px;
+    margin: 0 11.25px;
+  }
+
+  /* url */
+
+  .card__url {
+    max-width: 288px;
+    text-align: left;
+  }
+
+  /* name */
+
+  .card__name {
+    max-width: 288px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  /* image */
+
+  .card__image {
+    max-width: 320px;
+    max-height: 320px;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* shadow */
+
+  .card__image:hover {
+    background: #000000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  }
+
+  /* history */
+
+  .card__history {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 11.25px;
+    row-gap: 25px;
+  }
+
+  .card__history_sto-andre {
+    row-gap: 30px;
+  }
+
+  /* tour */
+
+  .card__tour {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 11.25px;
+  }
+
+  .card__tour_burundi {
+    row-gap: 25px;
+  }
+
+  /* more */
+
+  .card__more {
+    max-width: 288px;
+    font-size: 13.75px;
+    line-height: 23.75px;
+    margin: 0 11.25px;
+    row-gap: 30px;
+  }
+
+  /* Frame */
+
+  .card__frame {
+    max-width: 288px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    margin: 0 auto;
+  }
+
+  /* frame-text */
+
+  .card__frame-link {
+    max-width: 245px;
+    max-height: 17px;
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
