@@ -33,7 +33,7 @@
 
 ## 📁 Estrutura do projeto
 
-```web_project_homeland/
+``` web_project_homeland/
 ├── .vscode/
 │ ├── extensions.json
 │ └── settings.json
@@ -65,7 +65,7 @@
 ├── .prettierignore
 ├── favicon.ico
 ├── index.html
-└── README.md```
+└── README.md ```
 
 ---
 
