@@ -65,7 +65,7 @@
 ├── .prettierignore
 ├── favicon.ico
 ├── index.html
-└── README.md ```
+└── README.md 
 
 ---
 
