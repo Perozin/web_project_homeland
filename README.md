@@ -1,40 +1,47 @@
-# 🌍 Tripleten Homeland
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Perozin/web_project_homeland)
-![GitHub last commit](https://img.shields.io/github/last-commit/Perozin/web_project_homeland)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fperozin.github.io%2Fweb_project_homeland%2F)
-
-> 🧪 Projeto desenvolvido como parte do meu aprendizado em desenvolvimento web. Uma página simples, responsiva, com foco em estruturação visual e organização de conteúdo.
-
----
-
-## 🔗 Acesse o projeto online
-
-👉 [**Clique aqui para ver o site publicado**](https://perozin.github.io/web_project_homeland/)
-
----
-
-## 🧰 Tecnologias utilizadas
-
-- 🎨 **HTML5**
-- 💠 **CSS3**
-- 🔧 **Flexbox & Grid**
-- 📱 **Media Queries**
-- 🧭 **Git + GitHub**
-- 🌐 **GitHub Pages** para hospedagem
-
----
-
-## 🖼️ Captura de tela
+# 🌐 Projeto Homeland — Página Web Responsiva
 
 ![Preview do projeto](./images/preview-homeland.png)
+
+> Clique na imagem acima para acessar o projeto em produção:  
+👉 [https://perozin.github.io/web_project_homeland](https://perozin.github.io/web_project_homeland)
+
+---
+
+## 📋 Descrição
+
+Este projeto foi desenvolvido como parte da formação **Desenvolvedor Web Full-Stack** no bootcamp **TripleTen**. Trata-se de uma **landing page responsiva**, focada em aplicar os fundamentos de HTML, CSS e design responsivo, com atenção especial à organização do código segundo a **Metodologia BEM**.
+
+---
+
+## 🚀 Tecnologias e Ferramentas Utilizadas
+
+- 🎨 [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- 💠 [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- 🧭 [Git](https://git-scm.com/) + [GitHub](https://github.com/)
+- 🌐 [GitHub Pages](https://pages.github.com/)
+- 📱 Media Queries (responsividade)
+- 🔧 CSS Flexbox e Grid Layout
+- 📐 **Metodologia BEM** (Block Element Modifier)
+- 🧑‍🎨 **Design de interface com [Figma](https://www.figma.com/)**
+- 💻 **Web design responsivo**
+- ✅ Semântica básica e estrutura de diretórios clara
+
+---
+
+## 🖼️ Funcionalidades
+
+- Layout adaptável para diferentes tamanhos de tela (mobile, tablet e desktop)
+- Design limpo e moderno com base em protótipo do Figma
+- Organização do código com boas práticas e semântica
+- Estrutura clara de pastas e arquivos
 
 ---
 
 ## 📁 Estrutura do projeto
 
+```
 web_project_homeland/
-```├── .vscode/
+├── .vscode/
 │ ├── extensions.json
 │ └── settings.json
 │
@@ -65,7 +72,24 @@ web_project_homeland/
 ├── .prettierignore
 ├── favicon.ico
 ├── index.html
-└── README.md```
+└── README.md
+```
+
+---
+
+## 📌 Como visualizar o projeto
+
+Você pode acessar diretamente o projeto hospedado no GitHub Pages:  
+👉 **[perozin.github.io/web_project_homeland](https://perozin.github.io/web_project_homeland/)**
+
+Ou clonar e executar localmente:
+
+<pre><code>
+  . bash
+  . git clone https://github.com/Perozin/web_project_homeland.git 
+  . cd web_project_homeland 
+  . Depois, abra o arquivo index.html no seu navegador.
+</code></pre>
 
 ---
 
@@ -83,16 +107,20 @@ web_project_homeland/
 
 ## 🚧 Melhorias futuras (to-do)
 
-- [ ] Adicionar HTML semântico (`<header>`, `<section>`, `<footer>`)
-- [ ] Criar mais breakpoints para responsividade (375px, 768px, etc.)
-- [ ] Inserir animações leves com CSS
-- [ ] Explorar JavaScript para interações básicas
+- [ ] ✨ Adicionar animações CSS suaves
+- [ ] 🧩 Incluir interações básicas com JavaScript
+- [ ] 🎞️ Integrar a aplicação com servidor de banco de dados
 
 ---
 
-## 🙋‍♂️ Autor
+## 📄 Licença
+Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
 
-Desenvolvido por **Marcio Persuin** 🇧🇷  
-🔗 [Meu GitHub](https://github.com/Perozin)
+---
+
+## 🙋‍♂️  Autor
+
+**Márcio Perozin**  
+🔗 [GitHub](https://github.com/Perozin) • [LinkedIn](https://www.linkedin.com/in/marcio-perozin-58162334)
 
 ---
