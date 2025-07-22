@@ -67,7 +67,6 @@
 ├── index.html
 └── README.md```
 
-
 ---
 
 ## 📚 Aprendizados com o projeto
