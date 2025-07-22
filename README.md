@@ -1,29 +1,64 @@
-# Tripleten Homeland
+# 🌍 Web Project Homeland
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![GitHub repo size](https://img.shields.io/github/repo-size/Perozin/web_project_homeland)
+![GitHub last commit](https://img.shields.io/github/last-commit/Perozin/web_project_homeland)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fperozin.github.io%2Fweb_project_homeland%2F)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+> 🧪 Projeto desenvolvido como parte do meu aprendizado em desenvolvimento web. Uma página simples, responsiva, com foco em estruturação visual e organização de conteúdo.
 
-A página da Triple Homeland é o quinto projeto no programa de desenvolvimento web na TripleTen. Ela foi criada usando HTML e CSS, com base no roteiro.
+---
 
-## Recursos do projeto
+## 🔗 Acesse o projeto online
 
-- HTML5 semântico
-- Flexbox
-- Metodologia BEM
-- Recursos avançados de HTML e CSS
-- Organização de arquivos com BEM
-- Especificações de design
-- Design de interface com Figma
-- Web design responsivo
-- Git avançado
-- Vim e cat (visualização e edição de arquivos via prompt de comando)
+👉 [**Clique aqui para ver o site publicado**](https://perozin.github.io/web_project_homeland/)
 
-## Planos de melhoria do projeto
+---
 
-Implementar funcionalidades interativas com JavaScript, bem como integração da aplicação com servidor de banco de dados.
+## 🧰 Tecnologias utilizadas
 
-## Link para o projeto 
+- 🎨 **HTML5**
+- 💠 **CSS3**
+- 🔧 **Flexbox & Grid**
+- 📱 **Media Queries**
+- 🧭 **Git + GitHub**
+- 🌐 **GitHub Pages** para hospedagem
 
-https://perozin.github.io/web_project_homeland/
+---
+
+## 🖼️ Captura de tela
+
+![Preview do projeto](./imagens/preview-homeland.png)
+
+---
+
+## 📚 Aprendizados com o projeto
+
+✅ Estruturação de página com HTML5  
+✅ Organização visual com CSS3  
+✅ Centralização com Flexbox  
+✅ Layout em grade com Grid  
+✅ Design responsivo com `@media`  
+✅ Publicação gratuita com GitHub Pages  
+✅ Controle de versões com Git
+
+---
+
+## 🚧 Melhorias futuras (to-do)
+
+- [ ] Adicionar HTML semântico (`<header>`, `<section>`, `<footer>`)
+- [ ] Criar mais breakpoints para responsividade (375px, 768px, etc.)
+- [ ] Inserir animações leves com CSS
+- [ ] Explorar JavaScript para interações básicas
+
+---
+
+## 🙋‍♂️ Autor
+
+Desenvolvido por **Marcio Persuin** 🇧🇷  
+🔗 [Meu GitHub](https://github.com/Perozin)
+
+---
+
+
+
 
