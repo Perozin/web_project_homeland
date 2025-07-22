@@ -1,4 +1,4 @@
-# 🌍 Web Project Homeland
+# 🌍 Tripleten Homeland
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Perozin/web_project_homeland)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Perozin/web_project_homeland)
@@ -31,6 +31,44 @@
 
 ---
 
+## 📁 Estrutura do projeto
+
+web_project_homeland/
+├── .vscode/
+│   ├── extensions.json
+│   └── settings.json
+│
+├── blocks/
+│   ├── card.css
+│   ├── footer.css
+│   ├── header.css
+│   ├── intro.css
+│   ├── page.css
+│   ├── photo.css
+│   ├── places.css
+│   └── root.css
+│
+├── images/
+│   └── [imagens do projeto]
+│
+├── pages/
+│   └── index.css
+│
+├── vendor/
+│   ├── fonts/
+│   │   └── [arquivos de fontes]
+│   ├── fonts.css
+│   └── normalize.css
+│
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── favicon.ico
+├── index.html
+└── README.md
+
+---
+
 ## 📚 Aprendizados com o projeto
 
 ✅ Estruturação de página com HTML5  
@@ -58,7 +96,3 @@ Desenvolvido por **Marcio Persuin** 🇧🇷
 🔗 [Meu GitHub](https://github.com/Perozin)
 
 ---
-
-
-
-
