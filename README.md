@@ -27,7 +27,7 @@
 
 ## 🖼️ Captura de tela
 
-![Preview do projeto](./image/preview-homeland.png)
+![Preview do projeto](./images/preview-homeland.png)
 
 ---
 
