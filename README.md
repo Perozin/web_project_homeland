@@ -33,7 +33,39 @@
 
 ## 📁 Estrutura do projeto
 
-
+```web_project_homeland/
+├── .vscode/
+│ ├── extensions.json
+│ └── settings.json
+│
+├── blocks/
+│ ├── card.css
+│ ├── footer.css
+│ ├── header.css
+│ ├── intro.css
+│ ├── page.css
+│ ├── photo.css
+│ ├── places.css
+│ └── root.css
+│
+├── images/
+│ └── [imagens do projeto]
+│
+├── pages/
+│ └── index.css
+│
+├── vendor/
+│ ├── fonts/
+│ │ └── [arquivos de fontes]
+│ ├── fonts.css
+│ └── normalize.css
+│
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── favicon.ico
+├── index.html
+└── README.md```
 
 
 ---
